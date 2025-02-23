@@ -1,0 +1,61 @@
+# Archivos de configuración local
+/config/config_db.php
+/.env
+
+# Directorios de caché y temporales
+/files/_cache/
+/files/_sessions/
+/files/_tmp/
+
+# Archivos de registro
+/files/_log/
+
+# Dependencias de Composer
+/vendor/
+
+# Archivos subidos por usuarios
+/files/_uploads/
+
+# Archivos de IDE y desarrollo
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backups y exportaciones
+/files/_dumps/
+
+# Archivos compilados (CSS, JS, etc.)
+/css_compiled/
+
+# Archivos de instalación (no necesarios después de la instalación)
+/install/
+
+# Plugins del marketplace (pueden reinstalarse)
+/marketplace/
+
+# Archivos de sonido (si no son esenciales)
+/sound/
+
+# Archivos de configuración personalizados (si los hay)
+/config/*.local.php
+
+# Archivos de caché de Twig (si se generan)
+/var/cache/
+/var/log/
+
+# Archivos de sesión (si se almacenan en otro directorio)
+/var/sessions/
+
+# Archivos de configuración local de Composer (si los hay)
+/composer.lock
+/composer.phar
+
+# Archivos de configuración local de npm (si los hay)
+/node_modules/
+/package-lock.json
+
+# Archivos de configuración local de Docker (si los hay)
+/.dockerignore
+/docker-compose.yml
+/docker-compose.override.yml
