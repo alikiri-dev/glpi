@@ -6202,15 +6202,15 @@ HTML;
      */
     public static function getCopyrightMessage($withVersion = true)
     {
-        $message = "<a href=\"https://glpi-project.org/\" title=\"Powered by Teclib and contributors\" class=\"copyright\">";
-        $message .= "GLPI ";
-       // if required, add GLPI version (eg not for login page)
-        if ($withVersion) {
-            $message .= GLPI_VERSION . " ";
-        }
-        $message .= "Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors" .
-         "</a>";
-        return $message;
+    //     $message = "<a href=\"https://glpi-project.org/\" title=\"Powered by Teclib and contributors\" class=\"copyright\">";
+    //     $message .= "GLPI ";
+    //    // if required, add GLPI version (eg not for login page)
+    //     if ($withVersion) {
+    //         $message .= GLPI_VERSION . " ";
+    //     }
+    //     $message .= "Copyright (C) 2015-" . GLPI_YEAR . " Teclib' and contributors" .
+    //      "</a>";
+        return "";
     }
 
     /**
